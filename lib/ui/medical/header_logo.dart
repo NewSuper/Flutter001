@@ -11,7 +11,7 @@ class HeaderLogo extends StatelessWidget {
            mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Image.asset('assets/images/logo.png',
+            Image.asset('assets/images/medical_logo.png',
               width: 36,height: 36,),
             const SizedBox(width: 12,),
             const Text('medical',style: TextStyle(

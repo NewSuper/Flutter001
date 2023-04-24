@@ -14,7 +14,7 @@ class StartupScreen extends StatelessWidget {
         children: <Widget>[
           const MyHeader(
             height: 535,
-            imageUrl: 'assets/images/doctor.png',
+            imageUrl: 'assets/images/medical_doctor.png',
             child: HeaderLogo(),
           ),
           Expanded(

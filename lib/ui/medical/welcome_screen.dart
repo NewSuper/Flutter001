@@ -15,7 +15,7 @@ class WelcomeScreen extends StatelessWidget {
         children: [
           MyHeader(
               height: 333,
-              imageUrl: 'assets/images/welcome.png',
+              imageUrl: 'assets/images/medical_welcome.png',
               child: Column(
                 children: const [
                   HeaderLogo(),
@@ -86,7 +86,7 @@ class WelcomeScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       MenuCard(
-                          imageUrl: 'assets/images/general_practice.png',
+                          imageUrl: 'assets/images/medical_general_practice.png',
                           title: 'General Practice',
                           press: () {
                             Navigator.push(
@@ -99,7 +99,7 @@ class WelcomeScreen extends StatelessWidget {
                             );
                           }),
                       MenuCard(
-                        imageUrl: 'assets/images/specialist.png',
+                        imageUrl: 'assets/images/medical_specialist.png',
                         title: 'Specialist',
                         press: () {},
                       )
@@ -112,11 +112,11 @@ class WelcomeScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       MenuCard(
-                          imageUrl: 'assets/images/general_practice.png',
+                          imageUrl: 'assets/images/medical_general_practice.png',
                           title: 'General Practice',
                           press: () {}),
                       MenuCard(
-                        imageUrl: 'assets/images/specialist.png',
+                        imageUrl: 'assets/images/medical_specialist.png',
                         title: 'Specialist',
                         press: () {},
                       )

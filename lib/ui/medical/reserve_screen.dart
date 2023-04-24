@@ -18,7 +18,7 @@ class ReserveScreen extends StatelessWidget {
       children: <Widget>[
         MyHeader(
           height: 258,
-          imageUrl: 'assets/images/avatar_head.png',
+          imageUrl: 'assets/images/medical_avatar_head.png',
           child: Column(
             children: const <Widget>[
               MyAppBar(),
