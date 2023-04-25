@@ -18,3 +18,15 @@ List<Car> carList = [
   Car('assets/images/car_maserati.png', 100, 'Maserati', '3A 9200', '77/km', '5,5 L'),
   Car('assets/images/car_cadillac.png', 90, 'Cadillac', '3A 9200', '77/km', '5,5 L'),
 ];
+
+//coffee
+// Color mBackgroundColor = Color(0xFFFFFFFF);
+// Color mPrimaryColor = Color(0xFFB98068);
+// Color mTitleTextColor = Color(0xFF2D140D);
+// Color mPrimaryTextColor = Color(0xFF8C746A);
+Color mSecondTextColor = const Color(0xFFB98068);
+Color mSecondColor = const Color(0xFFC28E79);
+Color mFacebookColor = const Color(0xFF4277BC);
+List<String> coffeeNames = [
+  'coffee_Espresso','coffee_Cappuccino','coffee_Macciato','coffee_Mocha','coffee_Latte',
+];

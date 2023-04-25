@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter001/ui/car_rental/available_car_screen.dart';
+import 'package:flutter001/ui/coffee/coffee.dart';
 import 'package:flutter001/ui/medical/startup_screen.dart';
 
 void main() {
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       ),
       //home: const BottomBarPage(title: '底部导航'),
       //home: StartupScreen(),//ui_medical
-      home: const AvailableCarScreen(),//car_rental
+      //home: const AvailableCarScreen(),//car_rental
+      home:const CoffeePage()//coffee
     );
   }
 }
