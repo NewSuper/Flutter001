@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_flutter/explosion/explosion.dart';
 import 'package:test_flutter/red/red.dart';
 import 'package:test_flutter/signup/sign_up.dart';
 
@@ -46,7 +47,7 @@ class FirstPage extends StatelessWidget {
               MaterialPageRoute(
                 builder: (context) {
                  // return SignUp();
-                  return RedPage();
+                  return ExplosionWidget();
                 },
               ),
             );
